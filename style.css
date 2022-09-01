@@ -1,0 +1,164 @@
+body{
+  
+  background-color:#3F3F3F;
+  font-family:helvetica;
+}
+
+a{
+  display:block;
+  color:#ad5482;  
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:40px;
+  text-align:center;
+}
+
+#bg{
+  position:relative;
+  top:20px;
+  height:600px;
+  width:800px;
+  background:url('https://i.imgur.com/ZhS9cJh.png') center no-repeat;
+  background-size:cover;
+  margin-left:auto;
+  margin-right:auto; 
+  border:#fff 15px solid;
+}
+
+#container{
+  position:relative;
+  height:510px;
+  width:440px;
+  top:45px;
+  margin-left:auto;
+  margin-right:auto;  
+}
+
+#content{
+  float:left;  
+  z-index:2;
+}
+
+#picture{  
+  position:relative;
+  height:440px;
+  width:330px;
+  background-color:black;
+  z-index:5;
+}
+
+#picture img{
+  height:440px;
+  width:330px;
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .7);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .7);
+}
+
+.infoOverlay{
+  position:absolute;
+  width:100%;
+  height:100px;
+  bottom:0px;
+  background:rgba(0,0,0,.75);
+  padding:20px;
+  box-sizing:border-box;
+  border-top:rgba(85,75,118,.5) 2px solid;
+  z-index:100;
+  
+}
+
+.headText{
+  font-size:16pt;
+  font-weight:bold;
+  color:white;
+  margin-bottom:15px;
+}
+
+.subText{
+  
+  font-size:12pt;
+  color:gold;
+}
+
+#controls{
+  position:relative;
+  width:330px;
+  height:70px;
+  background-color:#867eb9;
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .7);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .7);
+  z-index:2;
+}
+
+.control{
+  float:left;
+  height:100%;
+  width:33.33%;  
+  padding-top:14px;
+  font-size:10pt;
+  font-weight:bold;
+  text-align:center;
+  box-sizing:border-box;
+  color:white;
+  cursor:pointer;
+  border-right:#635da2 2px solid;
+  transition:background .5s;
+}
+
+.control:hover{
+  background:rgba(0,0,0,.2);
+}
+
+.control:last-child{
+  border-right:#635da2 0px solid;
+}
+
+#nav{
+  position:relative;
+  float:left;
+  width:110px;
+  height:510px;
+  background-color:#bd85b1;
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .7);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .7);
+  z-index:1;
+
+}
+
+.navItem{
+  position:relative;
+  height:25%;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-size:10pt;
+  padding-top:35%;
+  box-sizing:border-box;
+  font-weight:bold;
+  cursor:pointer;
+  border-bottom:#ab739d 2px solid;
+  transition:background .5s;
+}
+
+
+.navItem:hover, .active{
+  background:rgba(0,0,0,.2);
+}
+
+.navItem:last-child{
+  border-bottom:0px solid;
+}
+.txtShadow{
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+.controlIcon{
+  
+  height:24px;
+}
+
+.navIcon{
+  
+  height:32px;
+}
