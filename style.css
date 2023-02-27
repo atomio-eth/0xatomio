@@ -1,7 +1,13 @@
-body{
-  
+@font-face {
+  font-family: 'zarautz';
+  src: url('beat.woff2') format('woff2'),
+       url('beat.woff') format('woff'),
+       url('beat.ttf')  format('truetype');
+}
+
+body {
   background-color:#3F3F3F;
-  font-family:helvetica;
+  font-family: 'zarautz', sans-serif;
 }
 
 a{
